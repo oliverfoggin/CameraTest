@@ -7,36 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEE4A0BEC7C5B1DD9E123C6F /* CameraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A56C4277C7EFAF9AE623 /* CameraCell.m */; };
+		EEE4A101710D767792AB9096 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4A93A5AC88537CE82A23F /* CoreVideo.framework */; };
 		EEE4A24DE06995083C458A2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4A5E544DFA6088E98D953 /* UIKit.framework */; };
+		EEE4A254D8986657D566E445 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4A1BCA3372827F778CEFB /* CoreImage.framework */; };
 		EEE4A2C21CBA809084612AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A182DF193374099DF24F /* AppDelegate.m */; };
 		EEE4A2C2F5164FE309B99FB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4A722F92A03AD4D878FB5 /* CoreGraphics.framework */; };
 		EEE4A5234674ED1FC036B54C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4AC18C70932EA73D04AC1 /* ViewController.m */; };
 		EEE4A5517F46114857A8090C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A772EAACC4E3652E376D /* main.m */; };
+		EEE4A57EEB7FCFB159C2D572 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4AB96FFE56A126844798B /* CoreMedia.framework */; };
 		EEE4A5A049C17E5547E5A2BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A4D5DF047581D076740D /* Default-568h@2x.png */; };
 		EEE4A8EAB07EC89CCEE886C5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A76C1730527BA93F566B /* Default@2x.png */; };
 		EEE4A998E82775A70934350D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A02B6C98357298EC890F /* Default.png */; };
 		EEE4A9E4A97E71AEE230CABF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4AFF6EB92B0812177293B /* MainStoryboard.storyboard */; };
+		EEE4A9F18CB1980BB3632872 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A694841FCBE763571F24 /* CameraManager.m */; };
 		EEE4ACA7C95004483B6DA040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A64B32A6FB1EB8220382 /* InfoPlist.strings */; };
 		EEE4ADA6AD616BF8A8EA3110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4A1ABCDC999B668B4B078 /* Foundation.framework */; };
+		EEE4AFC5C1C1FBB12C8D245C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4A525F33F301739DA32D5 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEE4A02B6C98357298EC890F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EEE4A0316DC2EF1DAEFD6156 /* CameraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCell.h; sourceTree = "<group>"; };
 		EEE4A182DF193374099DF24F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EEE4A1ABCDC999B668B4B078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEE4A1BCA3372827F778CEFB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		EEE4A485B77FE4F02B00E127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EEE4A4D5DF047581D076740D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EEE4A4EF8C565D92C3B6372F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEE4A525F33F301739DA32D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EEE4A56C4277C7EFAF9AE623 /* CameraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraCell.m; sourceTree = "<group>"; };
 		EEE4A5E544DFA6088E98D953 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEE4A5F9A592423609EF0AC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EEE4A636E49A0B8938691BE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE4A694841FCBE763571F24 /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
 		EEE4A722F92A03AD4D878FB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EEE4A76C1730527BA93F566B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EEE4A772EAACC4E3652E376D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEE4A7A143A8B76294583320 /* CameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE4A93A5AC88537CE82A23F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		EEE4AAC5CC33491D35DFF57C /* CameraTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CameraTest-Info.plist"; sourceTree = "<group>"; };
+		EEE4AB96FFE56A126844798B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		EEE4AC18C70932EA73D04AC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EEE4AD62B0D8F15164F82BF4 /* CameraTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraTest-Prefix.pch"; sourceTree = "<group>"; };
+		EEE4AE9117B2B44EF31A6200 /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,10 @@
 				EEE4A24DE06995083C458A2B /* UIKit.framework in Frameworks */,
 				EEE4ADA6AD616BF8A8EA3110 /* Foundation.framework in Frameworks */,
 				EEE4A2C2F5164FE309B99FB8 /* CoreGraphics.framework in Frameworks */,
+				EEE4AFC5C1C1FBB12C8D245C /* AVFoundation.framework in Frameworks */,
+				EEE4A101710D767792AB9096 /* CoreVideo.framework in Frameworks */,
+				EEE4A254D8986657D566E445 /* CoreImage.framework in Frameworks */,
+				EEE4A57EEB7FCFB159C2D572 /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +85,21 @@
 				EEE4A5E544DFA6088E98D953 /* UIKit.framework */,
 				EEE4A1ABCDC999B668B4B078 /* Foundation.framework */,
 				EEE4A722F92A03AD4D878FB5 /* CoreGraphics.framework */,
+				EEE4A525F33F301739DA32D5 /* AVFoundation.framework */,
+				EEE4A93A5AC88537CE82A23F /* CoreVideo.framework */,
+				EEE4A1BCA3372827F778CEFB /* CoreImage.framework */,
+				EEE4AB96FFE56A126844798B /* CoreMedia.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE4AA5E6EC7303B697B7EC2 /* CameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4A694841FCBE763571F24 /* CameraManager.m */,
+				EEE4AE9117B2B44EF31A6200 /* CameraManager.h */,
+			);
+			path = CameraManager;
 			sourceTree = "<group>";
 		};
 		EEE4ACE56C97E2900A3181F0 = {
@@ -103,6 +134,9 @@
 				EEE4AFF6EB92B0812177293B /* MainStoryboard.storyboard */,
 				EEE4A5F9A592423609EF0AC3 /* ViewController.h */,
 				EEE4AC18C70932EA73D04AC1 /* ViewController.m */,
+				EEE4AA5E6EC7303B697B7EC2 /* CameraManager */,
+				EEE4A56C4277C7EFAF9AE623 /* CameraCell.m */,
+				EEE4A0316DC2EF1DAEFD6156 /* CameraCell.h */,
 			);
 			path = CameraTest;
 			sourceTree = "<group>";
@@ -175,6 +209,8 @@
 				EEE4A5517F46114857A8090C /* main.m in Sources */,
 				EEE4A2C21CBA809084612AD7 /* AppDelegate.m in Sources */,
 				EEE4A5234674ED1FC036B54C /* ViewController.m in Sources */,
+				EEE4A9F18CB1980BB3632872 /* CameraManager.m in Sources */,
+				EEE4A0BEC7C5B1DD9E123C6F /* CameraCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +333,7 @@
 				EEE4A6887389882EFB6391DF /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
